@@ -1,4 +1,31 @@
 {% extends 'base.html' %}
 {% block content %}
-<h1 class="title">Front page</h1>
-{% endblock %}
+<h1 class="title">Front page</h1> 
+
+    <div class="container">
+      <div class="row">
+     
+          <h3 class="text-info ">Lists Products</h3>
+
+          {% for product in products %}
+          <div class="col-3">
+            <div class=" card text-center" style="width: 15rem;">
+              <div class="card-body ">
+                <h5 class="card-title">{{product.title }}</h5>
+                <p class="card-text">{{ product.category }}</p>
+                <p class="card-text text-muted">Fbu {{ product.price }}</p>
+                <p class="card-text">{{ product.description }}</p>
+                
+              <a href="{% url 'product_detail' product.category.slug product.slug%}" class="btn btn-primary">View</a>
+              </div>
+            </div>
+          </div>
+          {% endfor %}
+   
+      </div>
+    </div>
+
+
+  
+
+    {% endblock  %}

@@ -1,0 +1,20 @@
+{% extends 'base.html' %}
+{% block content %}
+<div class="container">
+    
+    <div class=" row my-4 justify-content-center">
+        <h2 class='text-center'>Voir les détails</h2>
+<div class="card text-center" style="width: 18rem;">
+  
+  <div class="card-body">
+    <h5 class="card-title">{{product_detail.title}}</h5>
+    <p class="card-text text-primary">{{product_detail.category}}.</p>
+    <p class="card-text text-muted">Fbu {{product_detail.price}}.</p>
+    <p class="card-text">{{product_detail.description}}.</p>
+   
+    {% comment %} <a href="#" class="btn btn-primary">Editer</a> {% endcomment %}
+  </div>
+</div>
+</diV>
+</div>
+{% endblock %}

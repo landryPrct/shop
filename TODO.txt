@@ -10,5 +10,10 @@ PART 1
 -done create view for the frontpage and a very basic template
 -donecheck that everything is working
 
-PART 2
+PART 2 (how to build an E-commerce using Django 3 and vue.js)
+-DONE create folder and app for the store app 
+-DONE Get list of products and show on the Frontpage
+-Done show detail view for a products
+-show categories in the menu
+-show detail view for a category(Title and list related products)
 
