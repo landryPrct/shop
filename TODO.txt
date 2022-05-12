@@ -1,0 +1,14 @@
+
+PART 1
+
+- DONE create virtual environment
+- DONE install Django and create a project
+-done set up the database
+- Done create a superuser
+-done create folder for the django app for the core views(apps/core)
+-done create the base template
+-done create view for the frontpage and a very basic template
+-donecheck that everything is working
+
+PART 2
+
